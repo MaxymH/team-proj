@@ -420,7 +420,7 @@
   width: 300px;
   color: $accent-clr;
   // background-color: rgba(255, 168, 6, 0.2);
-  font-weight: 800;
+  font-weight: 600;
 
   @include less-tab {
     font-size: 12px;
@@ -432,10 +432,12 @@
     margin-bottom: 5px;
     font-size: 14px;
     line-height: 176%;
+    font-weight: 800;
   }
   @include desk {
     margin-bottom: 26px;
     width: 350px;
+    font-weight: 800;
   }
 }
 .modal.show {
